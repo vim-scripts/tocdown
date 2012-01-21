@@ -1,12 +1,12 @@
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=3856
 
-Description
+Description:
 
 When you are writing a tons of documents in markdown with many headings and you want to get an overview about all the headlines you have, would it be very handy to have shortcut in Vim to simply give you a structured representation of all the heading you have in your large markdown file?
 
 The great taglist.vim plugin solved the problem already for variables and functions of many different programming languages but not for plain markdown-files. That's why I wrote tocdown.
 
-Usage
+Usage:
 
 Simply press :TocdownToggle and the extra window with the headline of the current file will open. If you call :TocdownToggle again, the window will be closed.
 
@@ -17,5 +17,8 @@ nnoremap <F2> :TocdownToggle
 You can change the mapping to your needs.
 
 
+Screencast:
+
+http://www.screenr.com/zvos
 
 
